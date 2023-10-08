@@ -4,7 +4,6 @@ import { auth, firestore } from './firebase.js';
 import {
   collection,
   addDoc,
-  onSnapshot,
   serverTimestamp,
   orderBy,
   query,
