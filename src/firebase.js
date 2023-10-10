@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getDatabase } from 'firebase/database';
-import { getAuth } from "firebase/auth";
+import { getAuth, signOut } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -27,6 +27,12 @@ export const analytics = getAnalytics(app);
 // export const auth = getAuth(app);
 // Initialize Firebase Authentication and get a reference to the service
 export const auth = getAuth(app);
+signOut(auth).then(() => {
+  // Sign-out successful.
+}).catch((error) => {
+  // An error happened.
+});
+export { signOut };
 const database = getDatabase(app);
 export const firestore= getFirestore(app);
 export { database }; // Export the database reference so you can use it in other components
