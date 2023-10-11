@@ -189,7 +189,7 @@ button {
 
   .message-text{
     font-size: medium;
-  }
+    color: aqua;  }
 
   .message-username{
     font-size: large;
