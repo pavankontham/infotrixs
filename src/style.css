@@ -172,3 +172,26 @@ button {
   max-width: 50%;
   border-radius: 5px;
 }
+
+@media (max-width: 480px) {
+  /* Adjust styles for screens up to 480px wide (typical mobile devices) */
+  body {
+    background-attachment: scroll; /* Remove fixed background attachment on small screens */
+  }
+
+  form input {
+    min-width: 100%; /* Expand input fields to full width */
+  }
+
+  .message-time{
+    font-size: x-small;
+  }
+
+  .message-text{
+    font-size: medium;
+    color: aqua;  }
+
+  .message-username{
+    font-size: large;
+  }
+}
