@@ -180,18 +180,20 @@ button {
   }
 
   form input {
-    min-width: 100%; /* Expand input fields to full width */
+    max-width: 99%; /* Expand input fields to full width */
   }
 
   .message-time{
     font-size: x-small;
+    color: white;
   }
 
   .message-text{
-    font-size: medium;
+    font-size: large;
     color: aqua;  }
 
   .message-username{
-    font-size: large;
+    font-size: medium;
+    color: white;
   }
 }
