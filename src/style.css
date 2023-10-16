@@ -215,5 +215,6 @@ button {
     font-size: 16px;
     padding: 15px 18px;
     margin:10px;
+    width: fit-content;
   }
 }
