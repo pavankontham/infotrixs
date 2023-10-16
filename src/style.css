@@ -208,11 +208,12 @@ button {
     flex-direction:column;
   }
   .signin button{
+    margin: 10px !important;
+    padding: 13px 17px !important;
     display: inline-block;
     width: fit-content !important;
   }
   button{
-    margin: 10px !important;
-    padding: 13px 17px !important;
+    
     width: fit-content !important;}
 }
