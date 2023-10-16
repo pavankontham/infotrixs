@@ -214,5 +214,5 @@ button {
     width: fit-content !important;
   }
   button{
-    width: fit-content;}
+    width: fit-content !important;}
 }
