@@ -203,4 +203,17 @@ button {
   }
   .caption{
     font-size:large;}
+   .signin{
+    display:flex;
+    flex-direction:column;
+  }
+  .sign button{
+    background-color: #0056b3;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 18px;
+    margin:10px;
+  }
 }
