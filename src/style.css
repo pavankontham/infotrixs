@@ -217,4 +217,6 @@ button {
     margin:10px;
     width: fit-content;
   }
+  button{
+    width: fit-content;}
 }
