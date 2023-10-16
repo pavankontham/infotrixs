@@ -195,5 +195,8 @@ button {
   .message-username{
     font-size: medium;
     color: white;
+    display:bolck;
   }
+  .caption{
+    font-size:large;}
 }
