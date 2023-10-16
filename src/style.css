@@ -184,7 +184,7 @@ button {
   }
 
   form input {
-    max-width: 99%; /* Expand input fields to full width */
+    max-width: 95%; /* Expand input fields to full width */
   }
 
   .message-time{
@@ -208,9 +208,7 @@ button {
     flex-direction:column;
   }
   .sign button{
-    
     display: inline-block;
-    
     width: fit-content !important;
   }
   button{
