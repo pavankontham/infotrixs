@@ -211,7 +211,7 @@ button {
     
     display: inline-block;
     
-    width: fit-content important;
+    width: fit-content !important;
   }
   button{
     width: fit-content;}
