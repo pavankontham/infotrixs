@@ -212,5 +212,7 @@ button {
     width: fit-content !important;
   }
   button{
+    margin: 10px;
+    padding: 13px 17px;
     width: fit-content !important;}
 }
