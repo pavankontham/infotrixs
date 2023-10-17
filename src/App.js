@@ -27,7 +27,7 @@ function App() {
           </div>
           <div className="navbar-right">
                 {showChat ? (
-                  <button onClick={() => setShowChat(false)}>See Chats as Guest</button>
+                  <button onClick={() => setShowChat(false)}>See Chats!!</button>
                 ) : (
                   <button onClick={() => setShowChat(true)}>Register/Sign In</button>
                 )}
